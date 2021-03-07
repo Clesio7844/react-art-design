@@ -1,11 +1,20 @@
 import React from 'react';
 import './App.css';
 
+import 'antd/dist/antd.css';
+
+import { Layout } from 'antd';
+import AppHeader from './components/common/Header';
+
+const { Header } = Layout;
+
 function App() {
   return (
-    <div className='App'>
-      <h1>hello world</h1>
-    </div>
+    <Layout className='mainLayout'>
+      <Header>
+        <AppHeader />
+      </Header>
+    </Layout>
   );
 }
 
