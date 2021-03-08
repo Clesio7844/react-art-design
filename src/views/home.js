@@ -4,6 +4,7 @@ import AppAbout from '../components/home/about';
 import Appfeature from '../components/home/feature';
 import Appworks from '../components/home/works';
 import AppFaq from '../components/home/faq';
+import Apppricing from '../components/home/pricing';
 
 function AppHome() {
   return (
@@ -13,6 +14,7 @@ function AppHome() {
       <Appfeature />
       <Appworks />
       <AppFaq />
+      <Apppricing />
     </div>
   );
 }
