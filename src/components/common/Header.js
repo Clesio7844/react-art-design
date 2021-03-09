@@ -1,5 +1,8 @@
 import React from 'react';
-import { Menu } from 'antd';
+
+import { Anchor } from 'antd';
+
+const { Link } = Anchor;
 
 function AppHeader() {
   return (
@@ -9,16 +12,16 @@ function AppHeader() {
           <i className='fas fa-bolt'></i>
           <a href='https://ressum-portfolio.herokuapp.com/'>DLCC</a>
         </div>
-        <Menu mode='horizontal' defaultSelectedKeys={['home']}>
-          <Menu.Item key='home'>Home</Menu.Item>
-          <Menu.Item key='about'>About</Menu.Item>
-          <Menu.Item key='features'>Features</Menu.Item>
-          <Menu.Item key='howitworks'>How it works</Menu.Item>
 
-          <Menu.Item key='faq'>FAQ</Menu.Item>
-          <Menu.Item key='pricing'>Pricing</Menu.Item>
-          <Menu.Item key='contact'>Contact</Menu.Item>
-        </Menu>
+        <Anchor targetOffset='65'>
+          <Link href='#hero' title='Home' />
+          <Link href='#about' title='About' />
+          <Link href='#feature' title='Feature' />
+          <Link href='#works' title='How it Works' />
+          <Link href='#faq' title='Faq' />
+          <Link href='#pricing' title='pricing' />
+          <Link href='#contact' title='contact' />
+        </Anchor>
       </div>
     </div>
   );

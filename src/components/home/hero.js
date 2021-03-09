@@ -25,7 +25,7 @@ const items = [
 
 function AppHero() {
   return (
-    <h3 className='heroBlock'>
+    <div id='hero' className='heroBlock'>
       <Carousel>
         {items.map(item => {
           return (
@@ -46,7 +46,7 @@ function AppHero() {
           );
         })}
       </Carousel>
-    </h3>
+    </div>
   );
 }
 
