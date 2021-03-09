@@ -22,12 +22,12 @@ function Appfeature() {
           </p>
         </div>
         <Row gutter={[16, 16]}>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card hoverable cover={<img alt='Modern Design' src={image1} />}>
               <Meta title='Modern Design' />
             </Card>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
               cover={<img alt='Clean and Elegant' src={image2} />}
@@ -35,17 +35,17 @@ function Appfeature() {
               <Meta title='Clean and Elegant' />
             </Card>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card hoverable cover={<img alt='Great Support' src={image3} />}>
               <Meta title='Great Support' />
             </Card>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card hoverable cover={<img alt='Easy to cutomise' src={image4} />}>
               <Meta title='Easy to cutomise' />
             </Card>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
               cover={<img alt='unlimited Features' src={image5} />}
@@ -53,7 +53,7 @@ function Appfeature() {
               <Meta title='unlimited Features' />
             </Card>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card hoverable cover={<img alt='Advanced Option' src={image6} />}>
               <Meta title='Advanced Option' />
             </Card>
