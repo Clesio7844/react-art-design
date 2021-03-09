@@ -44,7 +44,7 @@ const data = [
   }
 ];
 
-function Apppricing() {
+function Appricing() {
   return (
     <div id='pricing' className='block pricingBlock bgGray'>
       <div className='container-fluid'>
@@ -86,4 +86,4 @@ function Apppricing() {
   );
 }
 
-export default Apppricing;
+export default Appricing;
